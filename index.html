@@ -1,0 +1,21 @@
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>搭建的是一个网站</title>
+		<script>
+		function play_v1(v){
+			v.play()
+		}
+		function stop_v1(v){
+			v.pause();
+		}
+		</script>
+	</head>
+	<body>
+		<h1><center>这是我的第一个网站</center></h1>
+		<div><center>
+		<video onmouseover="play_v1(this)" onmouseleave="play_v1(this)" id="videos" height="800" src="Blueming.mp4" autoplay="autoplay" type="video/mp4" loop></video>
+		</center>
+		</div>
+	</body>
+</html>
